@@ -1,2 +1,2 @@
 # dart_solana
-DartSolana is a comprehensive Dart library tailored for the Solana blockchain ecosystem.
+DartSolana is a comprehensive Dart library tailored for the Solana blockchain ecosystem. It facilitates direct interaction with Solana's RPC API, offering functionalities such as transaction creation, signature generation, and broadcasting to the network. The library also provides support for account management, fetching network state, and handling smart contracts. DartSolana is ideal for developers seeking to leverage Solana's high throughput and scalability in their Dart applications.
