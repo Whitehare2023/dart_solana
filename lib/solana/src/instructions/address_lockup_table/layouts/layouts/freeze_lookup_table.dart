@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/address_lockup_table/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/address_lockup_table/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Structure for the AddressLookupFreezeLookupTable instruction.
 class AddressLookupFreezeLookupTableLayout

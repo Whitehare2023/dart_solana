@@ -1,6 +1,6 @@
 // Manages the layout structure for closing an SPL token account.
-import 'package:on_chain/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Represents the layout for closing an SPL token account.
 class SPLTokenCloseAccountLayout extends SPLTokenProgramLayout {

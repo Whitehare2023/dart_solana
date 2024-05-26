@@ -1,4 +1,4 @@
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Represents a layout with no data.
 class None extends Layout {

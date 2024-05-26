@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/models/lockup/table_lookup.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/models/lockup/table_lookup.dart';
 
 /// Class representing the extracted table lookup with associated readable and writable addresses.
 class ExtractTableLookup {

@@ -1,8 +1,8 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/instructions/ed25519/constant.dart';
-import 'package:on_chain/solana/src/keypair/private_key.dart';
-import 'package:on_chain/solana/src/keypair/public_key.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/ed25519/constant.dart';
+import 'package:solana/solana/src/keypair/private_key.dart';
+import 'package:solana/solana/src/keypair/public_key.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Structure for the Ed25519 program.
 class Ed25519ProgramLayout extends ProgramLayout {

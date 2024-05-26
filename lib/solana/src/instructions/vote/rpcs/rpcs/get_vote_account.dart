@@ -1,6 +1,6 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/vote/accounts/accounts/vote_account.dart';
-import 'package:on_chain/solana/src/rpc/rpc.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/vote/accounts/accounts/vote_account.dart';
+import 'package:solana/solana/src/rpc/rpc.dart';
 
 class SolanaRPCGetVoteAccount extends SolanaRPCRequest<VoteAccount?> {
   const SolanaRPCGetVoteAccount({

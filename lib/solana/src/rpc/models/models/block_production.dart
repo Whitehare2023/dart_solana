@@ -1,4 +1,4 @@
-import 'package:on_chain/solana/src/rpc/models/rpc_models.dart';
+import 'package:solana/solana/src/rpc/models/rpc_models.dart';
 
 class BlockProduction {
   /// a dictionary of validator identities, as base-58 encoded strings.

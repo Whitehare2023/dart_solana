@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/exception/exception.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class GroupMemberPointerInstruction extends LayoutSerializable {
   const GroupMemberPointerInstruction._(this.name);

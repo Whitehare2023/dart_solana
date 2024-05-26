@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/name_service/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/name_service/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Realloc the data of a name record.
 class NameServiceReallocLayout extends NameServiceProgramLayout {

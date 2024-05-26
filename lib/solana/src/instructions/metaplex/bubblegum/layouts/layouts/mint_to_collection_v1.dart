@@ -1,6 +1,6 @@
-import 'package:on_chain/solana/src/instructions/metaplex/bubblegum/layouts/instructions/instruction.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/bubblegum/types/types/meta_data.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/metaplex/bubblegum/layouts/instructions/instruction.dart';
+import 'package:solana/solana/src/instructions/metaplex/bubblegum/types/types/meta_data.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class MetaplexBubblegumMintToCollectionV1Layout
     extends MetaplexBubblegumProgramLayout {

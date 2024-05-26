@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class ReservationV1 extends LayoutSerializable {
   const ReservationV1(

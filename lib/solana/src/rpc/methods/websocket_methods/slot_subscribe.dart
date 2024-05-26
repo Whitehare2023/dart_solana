@@ -1,4 +1,4 @@
-import 'package:on_chain/solana/src/rpc/core/rpc.dart';
+import 'package:solana/solana/src/rpc/core/rpc.dart';
 
 /// Subscribe to receive notification anytime a slot is processed by the validator.
 /// https://solana.com/docs/rpc/websocket/slotsubscribe

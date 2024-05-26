@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/associated_token_account/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/associated_token_account/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// AssociatedTokenAccount layout
 class AssociatedTokenAccountProgramInitializeLayout

@@ -1,7 +1,7 @@
-import 'package:on_chain/solana/src/instructions/metaplex/bubblegum/types/types/collection.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/bubblegum/types/types/uses.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/fixed_price_sale/types/types/creator.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/metaplex/bubblegum/types/types/collection.dart';
+import 'package:solana/solana/src/instructions/metaplex/bubblegum/types/types/uses.dart';
+import 'package:solana/solana/src/instructions/metaplex/fixed_price_sale/types/types/creator.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class MetaDataV2 extends LayoutSerializable {
   const MetaDataV2(

@@ -1,7 +1,7 @@
-import 'package:on_chain/solana/src/instructions/spl_token_swap/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/core/core.dart';
-import 'package:on_chain/solana/src/layout/program_layouts/core/program_layout.dart';
-import 'package:on_chain/solana/src/layout/utils/layout_utils.dart';
+import 'package:solana/solana/src/instructions/spl_token_swap/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/core/core.dart';
+import 'package:solana/solana/src/layout/program_layouts/core/program_layout.dart';
+import 'package:solana/solana/src/layout/utils/layout_utils.dart';
 
 /// Deposit one type of tokens into the pool layout.
 class SPLTokenSwapDepositSingleTokenLayout extends SPLTokenSwapProgramLayout {

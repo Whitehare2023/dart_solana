@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/layout/byte_writer/layout_byte_write.dart';
-import 'package:on_chain/solana/src/layout/core/core.dart';
+import 'package:solana/solana/src/layout/byte_writer/layout_byte_write.dart';
+import 'package:solana/solana/src/layout/core/core.dart';
 
 /// Represents a custom layout with customized encoding and decoding functions.
 typedef WrappedLayoutDecoder<T, D> = D Function(T value);

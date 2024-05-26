@@ -1,6 +1,6 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/gumdrop/accounts/accounts.dart';
-import 'package:on_chain/solana/src/rpc/rpc.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/metaplex/gumdrop/accounts/accounts.dart';
+import 'package:solana/solana/src/rpc/rpc.dart';
 
 /// Retrieves the account info from the provided address and deserializes
 /// the [ClaimStatus] from its data.

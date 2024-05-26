@@ -1,6 +1,6 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/rpc/core/core.dart';
-import 'package:on_chain/solana/src/rpc/core/methods.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/rpc/core/core.dart';
+import 'package:solana/solana/src/rpc/core/methods.dart';
 
 /// Returns the slot leaders for a given slot range
 /// https://solana.com/docs/rpc/http/getslotleaders

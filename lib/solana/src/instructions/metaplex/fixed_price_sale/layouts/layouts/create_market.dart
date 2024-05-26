@@ -1,6 +1,6 @@
-import 'package:on_chain/solana/src/instructions/metaplex/fixed_price_sale/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/fixed_price_sale/types/types/gating_config.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/metaplex/fixed_price_sale/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/instructions/metaplex/fixed_price_sale/types/types/gating_config.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class MetaplexFixedPriceSaleCreateMarketLayout
     extends MetaplexFixedPriceSaleProgramLayout {

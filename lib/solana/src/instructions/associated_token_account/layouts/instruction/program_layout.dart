@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/associated_token_account/layouts/layouts.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/associated_token_account/layouts/layouts.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 abstract class AssociatedTokenAccountProgramLayout extends ProgramLayout {
   const AssociatedTokenAccountProgramLayout();

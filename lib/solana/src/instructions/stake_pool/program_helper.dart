@@ -1,10 +1,12 @@
-import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/instructions.dart';
-import 'package:on_chain/solana/src/instructions/stake_pool/rpc/rpcs/get_stake_validator_list_account.dart';
-import 'package:on_chain/solana/src/models/models.dart';
-import 'package:on_chain/solana/src/rpc/rpc.dart';
 import 'dart:math' as math;
+
+import 'package:blockchain_utils/blockchain_utils.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/instructions.dart';
+import 'package:solana/solana/src/instructions/stake_pool/rpc/rpcs/get_stake_validator_list_account.dart';
+import 'package:solana/solana/src/models/models.dart';
+import 'package:solana/solana/src/rpc/rpc.dart';
+
 import 'utils.dart';
 
 class StakePoolProgramHelper {

@@ -1,8 +1,8 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/token_meta_data/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/token_meta_data/types/types/payload.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/token_meta_data/types/types/token_standard.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/metaplex/token_meta_data/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/instructions/metaplex/token_meta_data/types/types/payload.dart';
+import 'package:solana/solana/src/instructions/metaplex/token_meta_data/types/types/token_standard.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class MetaplexTokenMetaDataUpdateAsAuthorityItemDelegateV2Layout
     extends MetaplexTokenMetaDataUpdateProgramLayout {

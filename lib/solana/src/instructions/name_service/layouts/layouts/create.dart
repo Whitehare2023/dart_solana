@@ -1,6 +1,6 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/instructions/name_service/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/name_service/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Create an empty name record layout.
 class NameServiceCreateLayout extends NameServiceProgramLayout {

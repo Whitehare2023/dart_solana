@@ -1,9 +1,9 @@
 // Import necessary modules for blockchain utilities, Solana address management, and transaction models.
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/models/lockup/accout_lookup_key.dart';
-import 'package:on_chain/solana/src/models/transaction/instruction.dart';
-import 'package:on_chain/solana/src/transaction/constant/solana_transaction_constant.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/models/lockup/accout_lookup_key.dart';
+import 'package:solana/solana/src/models/transaction/instruction.dart';
+import 'package:solana/solana/src/transaction/constant/solana_transaction_constant.dart';
 
 import 'compiled_instructon.dart';
 

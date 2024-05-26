@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/utils/utils.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/utils/utils.dart';
 
 class ProgramDerivedAddress {
   factory ProgramDerivedAddress.find(

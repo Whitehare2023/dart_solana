@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/metaplex/auctioneer/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/metaplex/auctioneer/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// auctioneer sell layout.
 class MetaplexAuctioneerSellLayout extends MetaplexAuctioneerProgramLayout {

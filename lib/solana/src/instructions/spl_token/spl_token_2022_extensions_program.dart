@@ -1,11 +1,11 @@
 import 'package:blockchain_utils/exception/exception.dart';
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/layout/program_layouts/core/program_layout.dart';
-import 'package:on_chain/solana/src/instructions/spl_token/constant.dart';
-import 'package:on_chain/solana/src/instructions/spl_token/layouts/layouts.dart';
-import 'package:on_chain/solana/src/instructions/spl_token/utils/utils/spl_token_utils.dart';
-import 'package:on_chain/solana/src/models/account/account_meta.dart';
-import 'package:on_chain/solana/src/models/transaction/instruction.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/spl_token/constant.dart';
+import 'package:solana/solana/src/instructions/spl_token/layouts/layouts.dart';
+import 'package:solana/solana/src/instructions/spl_token/utils/utils/spl_token_utils.dart';
+import 'package:solana/solana/src/layout/program_layouts/core/program_layout.dart';
+import 'package:solana/solana/src/models/account/account_meta.dart';
+import 'package:solana/solana/src/models/transaction/instruction.dart';
 
 class SPLToken2022ExtensionsProgram extends TransactionInstruction {
   SPLToken2022ExtensionsProgram({

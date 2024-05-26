@@ -1,7 +1,7 @@
-import 'package:on_chain/solana/src/rpc/core/core.dart';
-import 'package:on_chain/solana/src/rpc/core/methods.dart';
-import 'package:on_chain/solana/src/rpc/models/rpc_models.dart';
-import 'package:on_chain/solana/src/rpc/utils/solana_rpc_utils.dart';
+import 'package:solana/solana/src/rpc/core/core.dart';
+import 'package:solana/solana/src/rpc/core/methods.dart';
+import 'package:solana/solana/src/rpc/models/rpc_models.dart';
+import 'package:solana/solana/src/rpc/utils/solana_rpc_utils.dart';
 
 /// Returns the 20 largest accounts, by lamport balance (results may be cached up to two hours)
 /// https://solana.com/docs/rpc/http/getlargestaccounts

@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/models/account/account_meta.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/models/account/account_meta.dart';
 
 class SPLTokenUtils {
   // A static method to build a list of AccountMeta instances.

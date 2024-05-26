@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Abstract class for objects that can be serialized using a specific layout.
 abstract class LayoutSerializable {

@@ -1,7 +1,7 @@
 // Manages the layout structure for converting UI amount to amount in SPL.
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// uiAmount To Amount layout.
 class SPLTokenUiAmountToAmountLayout extends SPLTokenProgramLayout {

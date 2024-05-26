@@ -1,8 +1,8 @@
 // Manages the layout structure for setting authority in SPL tokens.
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/instructions/spl_token/types/types.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/instructions/spl_token/types/types.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Sets a new authority of a mint or account layout.
 class SPLTokenSetAuthorityLayout extends SPLTokenProgramLayout {

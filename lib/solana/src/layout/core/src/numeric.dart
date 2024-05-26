@@ -1,9 +1,10 @@
 import 'dart:typed_data';
+
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/layout/byte_writer/layout_byte_write.dart';
-import 'package:on_chain/solana/src/layout/core/core.dart';
-import 'package:on_chain/solana/src/layout/encoder/double_utils.dart';
-import 'package:on_chain/solana/src/layout/encoder/float_utils.dart';
+import 'package:solana/solana/src/layout/byte_writer/layout_byte_write.dart';
+import 'package:solana/solana/src/layout/core/core.dart';
+import 'package:solana/solana/src/layout/encoder/double_utils.dart';
+import 'package:solana/solana/src/layout/encoder/float_utils.dart';
 
 /// Represents an external layout.
 abstract class ExternalLayout extends Layout<int> {

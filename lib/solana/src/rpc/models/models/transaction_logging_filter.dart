@@ -1,4 +1,4 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
 
 /// filter criteria for the logs to receive results by account type.
 class SubscribeTransactionLogsFilter {

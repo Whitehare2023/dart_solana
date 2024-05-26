@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/system/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/system/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Advance nonce account system layout
 class SystemAdvanceNonceLayout extends SystemProgramLayout {

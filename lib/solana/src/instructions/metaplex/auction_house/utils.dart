@@ -1,6 +1,6 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/auction_house/constant.dart';
-import 'package:on_chain/solana/src/models/pda/pda.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/metaplex/auction_house/constant.dart';
+import 'package:solana/solana/src/models/pda/pda.dart';
 
 class MetaplexAuctionHouseProgramUtils {
   /// Finds the Auction House PDA for a creator and treasury

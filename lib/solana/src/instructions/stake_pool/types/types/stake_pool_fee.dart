@@ -1,4 +1,4 @@
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Fee rate as a ratio, minted on [UpdateStakePoolBalance] as a proportion of
 /// the rewards

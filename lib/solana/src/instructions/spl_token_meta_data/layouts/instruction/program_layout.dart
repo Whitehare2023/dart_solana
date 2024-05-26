@@ -1,6 +1,6 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/instructions/spl_token_meta_data/layouts/layouts.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/spl_token_meta_data/layouts/layouts.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 abstract class SPLTokenMetaDataProgramLayout extends ProgramLayout {
   /// Getter for instruction (to be implemented by subclasses)

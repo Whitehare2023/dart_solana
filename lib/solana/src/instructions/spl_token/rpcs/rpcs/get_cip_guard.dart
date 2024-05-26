@@ -1,6 +1,6 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/spl_token/accounts/accounts/cip_guard.dart';
-import 'package:on_chain/solana/src/rpc/rpc.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/spl_token/accounts/accounts/cip_guard.dart';
+import 'package:solana/solana/src/rpc/rpc.dart';
 
 class SolanaRPCGetCipGuard extends SolanaRPCRequest<CpiGuard?> {
   const SolanaRPCGetCipGuard({

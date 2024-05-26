@@ -1,4 +1,4 @@
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class Lockout extends LayoutSerializable {
   const Lockout({required this.slot, required this.confirmationCount});

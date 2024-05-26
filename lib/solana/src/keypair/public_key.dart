@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
 
 /// Class representing a public key in the Solana blockchain.
 class SolanaPublicKey {

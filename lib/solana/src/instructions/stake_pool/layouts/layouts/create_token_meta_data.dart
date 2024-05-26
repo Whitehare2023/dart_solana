@@ -1,7 +1,7 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/instructions/stake_pool/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
-import 'package:on_chain/solana/src/instructions/stake_pool/constant.dart';
+import 'package:solana/solana/src/instructions/stake_pool/constant.dart';
+import 'package:solana/solana/src/instructions/stake_pool/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Create token metadata for the stake-pool token in the
 /// metaplex-token program layout.

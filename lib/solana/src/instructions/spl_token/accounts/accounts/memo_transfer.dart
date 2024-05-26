@@ -1,6 +1,6 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/instructions/instructions.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/instructions.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class _Utils {
   static final Structure layout = LayoutUtils.struct(

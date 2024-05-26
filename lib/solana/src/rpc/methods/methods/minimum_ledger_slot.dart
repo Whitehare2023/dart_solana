@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/rpc/core/core.dart';
-import 'package:on_chain/solana/src/rpc/core/methods.dart';
+import 'package:solana/solana/src/rpc/core/core.dart';
+import 'package:solana/solana/src/rpc/core/methods.dart';
 
 /// Returns the lowest slot that the node has information about in its ledger.
 /// This value may increase over time if the node is configured to purge older ledger data

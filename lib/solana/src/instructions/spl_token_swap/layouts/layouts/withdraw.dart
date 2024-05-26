@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/spl_token_swap/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/spl_token_swap/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Withdraw both types of tokens from the pool layout.
 class SPLTokenSwapWithdrawLayout extends SPLTokenSwapProgramLayout {

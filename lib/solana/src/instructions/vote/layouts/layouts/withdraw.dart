@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/vote/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/vote/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Withdraw from vote account layoyt
 class VoteProgramWithdrawLayout extends VoteProgramLayout {

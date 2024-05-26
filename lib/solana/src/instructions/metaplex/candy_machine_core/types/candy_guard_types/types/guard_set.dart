@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/metaplex/candy_machine_core/types/candy_guard_types/types.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/metaplex/candy_machine_core/types/candy_guard_types/types.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class GuardSet extends LayoutSerializable {
   final BotTax? botTax;

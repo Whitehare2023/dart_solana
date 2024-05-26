@@ -1,4 +1,4 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
 
 ///  Information describing a cluster node
 class ContactInfo {

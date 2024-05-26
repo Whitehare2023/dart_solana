@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/binary/binary.dart';
-import 'package:on_chain/solana/src/rpc/models/models/encoding.dart';
+import 'package:solana/solana/src/rpc/models/models/encoding.dart';
 
 /// Class representing a compiled instruction.
 class CompiledInstruction {

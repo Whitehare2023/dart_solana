@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/stake_pool/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/stake_pool/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Increase stake on a validator again in an epoch layout.
 class StakePoolIncreaseAdditionalValidatorStakeLayout

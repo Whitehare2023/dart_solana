@@ -1,6 +1,6 @@
 import 'package:blockchain_utils/binary/binary.dart';
-import 'package:on_chain/solana/src/instructions/name_service/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/name_service/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 ///  Update the data in a name record.
 class NameServiceUpdateLayout extends NameServiceProgramLayout {

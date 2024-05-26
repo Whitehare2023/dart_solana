@@ -1,11 +1,10 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/keypair/private_key.dart';
-import 'package:on_chain/solana/src/models/models.dart';
-
-import 'package:on_chain/solana/src/transaction/constant/solana_transaction_constant.dart';
-import 'package:on_chain/solana/src/transaction/core/core.dart';
-import 'package:on_chain/solana/src/transaction/utils/utils.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/keypair/private_key.dart';
+import 'package:solana/solana/src/models/models.dart';
+import 'package:solana/solana/src/transaction/constant/solana_transaction_constant.dart';
+import 'package:solana/solana/src/transaction/core/core.dart';
+import 'package:solana/solana/src/transaction/utils/utils.dart';
 
 class TransactionSerializeEncoding {
   final String name;

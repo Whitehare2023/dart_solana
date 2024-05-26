@@ -1,9 +1,8 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/associated_token_account/constant.dart';
-import 'package:on_chain/solana/src/instructions/instructions.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
-
-import 'package:on_chain/solana/src/models/models.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/associated_token_account/constant.dart';
+import 'package:solana/solana/src/instructions/instructions.dart';
+import 'package:solana/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/models/models.dart';
 
 class MetaplexTokenEntanglerProgram extends TransactionInstruction {
   MetaplexTokenEntanglerProgram({

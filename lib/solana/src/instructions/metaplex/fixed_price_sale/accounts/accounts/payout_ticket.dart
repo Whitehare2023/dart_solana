@@ -1,4 +1,4 @@
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class _Utils {
   static const List<int> discriminator = [153, 222, 52, 216, 192, 152, 175, 80];

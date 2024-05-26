@@ -1,8 +1,8 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/hydra/constant.dart';
-import 'package:on_chain/solana/src/models/pda/pda.dart';
-import 'package:on_chain/solana/src/utils/utils.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/metaplex/hydra/constant.dart';
+import 'package:solana/solana/src/models/pda/pda.dart';
+import 'package:solana/solana/src/utils/utils.dart';
 
 class MetaplexHydraProgramUtils {
   static ProgramDerivedAddress findFanoutMembershipMintVoucherPda({

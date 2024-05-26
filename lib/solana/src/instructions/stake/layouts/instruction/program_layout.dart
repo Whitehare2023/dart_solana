@@ -1,6 +1,6 @@
 import 'package:blockchain_utils/exception/exception.dart';
-import 'package:on_chain/solana/src/instructions/stake/layouts/layouts.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/stake/layouts/layouts.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 abstract class StakeProgramLayout extends ProgramLayout {
   const StakeProgramLayout();

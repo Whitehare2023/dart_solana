@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/exception/exception.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class MemoTransferInstruction extends LayoutSerializable {
   const MemoTransferInstruction._(this.name);

@@ -1,6 +1,6 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/rpc/models/models/versioned_transaction_response.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/rpc/models/models/versioned_transaction_response.dart';
 
 import 'reward_response.dart';
 

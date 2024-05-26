@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/stake_pool/accounts/accounts.dart';
-import 'package:on_chain/solana/src/rpc/rpc.dart';
+import 'package:solana/solana/src/instructions/stake_pool/accounts/accounts.dart';
+import 'package:solana/solana/src/rpc/rpc.dart';
 
 /// Retrieves and deserializes a Stake validator list account.
 class SolanaRPCGetStakePoolValidatorListAccount

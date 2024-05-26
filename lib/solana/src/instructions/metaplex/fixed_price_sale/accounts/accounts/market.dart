@@ -1,6 +1,6 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/fixed_price_sale/types/types.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/metaplex/fixed_price_sale/types/types.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class _Utils {
   static const List<int> discriminator = [219, 190, 213, 55, 0, 227, 198, 154];

@@ -1,6 +1,6 @@
-import 'package:on_chain/solana/src/rpc/core/core.dart';
-import 'package:on_chain/solana/src/rpc/core/methods.dart';
-import 'package:on_chain/solana/src/rpc/models/rpc_models.dart';
+import 'package:solana/solana/src/rpc/core/core.dart';
+import 'package:solana/solana/src/rpc/core/methods.dart';
+import 'package:solana/solana/src/rpc/models/rpc_models.dart';
 
 /// Returns a list of recent performance samples, in reverse slot order.
 /// Performance samples are taken every 60 seconds and include the number of transactions and slots that occur in a given time window.

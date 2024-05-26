@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/spl_token_meta_data/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/spl_token_meta_data/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Initializes a TLV layout.
 class SPLTokenMetaDataInitializeLayout extends SPLTokenMetaDataProgramLayout {

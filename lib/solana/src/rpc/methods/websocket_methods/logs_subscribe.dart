@@ -1,6 +1,6 @@
-import 'package:on_chain/solana/src/rpc/core/rpc.dart';
-import 'package:on_chain/solana/src/rpc/models/rpc_models.dart';
-import 'package:on_chain/solana/src/rpc/utils/solana_rpc_utils.dart';
+import 'package:solana/solana/src/rpc/core/rpc.dart';
+import 'package:solana/solana/src/rpc/models/rpc_models.dart';
+import 'package:solana/solana/src/rpc/utils/solana_rpc_utils.dart';
 
 /// Subscribe to transaction logging.
 /// https://solana.com/docs/rpc/websocket/logssubscribe

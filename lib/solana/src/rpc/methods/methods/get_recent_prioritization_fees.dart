@@ -1,7 +1,7 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/rpc/core/core.dart';
-import 'package:on_chain/solana/src/rpc/core/methods.dart';
-import 'package:on_chain/solana/src/rpc/models/rpc_models.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/rpc/core/core.dart';
+import 'package:solana/solana/src/rpc/core/methods.dart';
+import 'package:solana/solana/src/rpc/models/rpc_models.dart';
 
 /// Returns a list of prioritization fees from recent blocks.
 /// Currently, a node's prioritization-fee cache stores data from up to 150 blocks.

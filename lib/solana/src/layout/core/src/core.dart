@@ -18,7 +18,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/layout/byte_writer/layout_byte_write.dart';
+import 'package:solana/solana/src/layout/byte_writer/layout_byte_write.dart';
+
 import 'numeric.dart';
 
 /// Base class for layout objects.

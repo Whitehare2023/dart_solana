@@ -1,10 +1,10 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/models/models.dart';
-import 'package:on_chain/solana/src/rpc/models/models/encoding.dart';
-import 'package:on_chain/solana/src/transaction/constant/solana_transaction_constant.dart';
-import 'package:on_chain/solana/src/transaction/message/legacy.dart';
-import 'package:on_chain/solana/src/transaction/message/message_v0.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/models/models.dart';
+import 'package:solana/solana/src/rpc/models/models/encoding.dart';
+import 'package:solana/solana/src/transaction/constant/solana_transaction_constant.dart';
+import 'package:solana/solana/src/transaction/message/legacy.dart';
+import 'package:solana/solana/src/transaction/message/message_v0.dart';
 
 /// Enum representing different solana versioned transaction types.
 class TransactionType {

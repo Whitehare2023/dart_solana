@@ -1,4 +1,4 @@
-import 'package:on_chain/solana/src/rpc/core/rpc.dart';
+import 'package:solana/solana/src/rpc/core/rpc.dart';
 
 /// Unsubscribe notifications
 /// https://solana.com/docs/rpc/websocket/votesubscribe

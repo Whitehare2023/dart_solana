@@ -1,7 +1,7 @@
 // Manages the layout structure for the SPL token approve checked operation.
-import 'package:on_chain/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/instructions/spl_token/types/types.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/instructions/spl_token/types/types.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Initialize a new mint with the default state for new Accounts layout.
 class SPLToken2022InitializeDefaultAccountStateLayout

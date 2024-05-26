@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/token_lending/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/token_lending/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Deposit liquidity into a reserve in exchange for collateral layout.
 class TokenLendingDepositReserveLiquidityLayout

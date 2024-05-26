@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/metaplex/auction_house/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/metaplex/auction_house/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class MetaplexAuctionHouseBuyLayout extends MetaplexAuctionHouseProgramLayout {
   final int tradeStateBump;

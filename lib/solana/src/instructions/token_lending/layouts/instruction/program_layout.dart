@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/token_lending/layouts/layouts.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/token_lending/layouts/layouts.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 abstract class TokenLendingProgramLayout extends ProgramLayout {
   const TokenLendingProgramLayout();

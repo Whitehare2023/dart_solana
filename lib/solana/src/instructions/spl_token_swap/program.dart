@@ -1,7 +1,8 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/layout/program_layouts/core/program_layout.dart';
-import 'package:on_chain/solana/src/models/account/account_meta.dart';
-import 'package:on_chain/solana/src/models/transaction/instruction.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/layout/program_layouts/core/program_layout.dart';
+import 'package:solana/solana/src/models/account/account_meta.dart';
+import 'package:solana/solana/src/models/transaction/instruction.dart';
+
 import 'layouts/layouts.dart';
 
 /// Instructions supported by the token swap program.

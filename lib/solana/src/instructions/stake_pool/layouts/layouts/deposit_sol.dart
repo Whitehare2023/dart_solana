@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/stake_pool/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/stake_pool/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Deposit SOL directly into the pool's reserve account layout.
 class StakePoolDepositSolLayout extends StakePoolProgramLayout {

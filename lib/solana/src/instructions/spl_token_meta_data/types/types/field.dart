@@ -1,6 +1,6 @@
 // Imports the necessary package for interacting with blockchain utilities.
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Represents a field in SPL token metadata.
 class SPLTokenMetaDataField extends LayoutSerializable {

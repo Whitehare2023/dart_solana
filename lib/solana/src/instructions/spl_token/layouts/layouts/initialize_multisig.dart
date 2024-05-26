@@ -1,6 +1,6 @@
 // Manages the layout structure for initializing a multisignature account for an SPL token.
-import 'package:on_chain/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Initialize Multisig account layout.
 class SPLTokenInitializeMultisigLayout extends SPLTokenProgramLayout {

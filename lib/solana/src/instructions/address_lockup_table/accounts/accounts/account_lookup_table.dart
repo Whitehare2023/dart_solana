@@ -1,8 +1,8 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/address_lockup_table/constant.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
-import 'package:on_chain/solana/src/transaction/constant/solana_transaction_constant.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/address_lockup_table/constant.dart';
+import 'package:solana/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/transaction/constant/solana_transaction_constant.dart';
 
 /// Utility class for handling address lookup table accounts.
 class _Utils {

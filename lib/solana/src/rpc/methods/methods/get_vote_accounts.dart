@@ -1,8 +1,8 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/vote/types/types.dart';
-import 'package:on_chain/solana/src/rpc/core/rpc.dart';
-import 'package:on_chain/solana/src/rpc/models/rpc_models.dart';
-import 'package:on_chain/solana/src/rpc/utils/solana_rpc_utils.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/vote/types/types.dart';
+import 'package:solana/solana/src/rpc/core/rpc.dart';
+import 'package:solana/solana/src/rpc/models/rpc_models.dart';
+import 'package:solana/solana/src/rpc/utils/solana_rpc_utils.dart';
 
 /// Returns the account info and associated stake for all the voting accounts in the current bank.
 /// https://solana.com/docs/rpc/http/getvoteaccounts

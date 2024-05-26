@@ -1,11 +1,11 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/bubblegum/types/types.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/fixed_price_sale/types/types/creator.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/token_meta_data/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/token_meta_data/types/types/collection_details.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/token_meta_data/types/types/print_supply.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/token_meta_data/types/types/token_standard.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/metaplex/bubblegum/types/types.dart';
+import 'package:solana/solana/src/instructions/metaplex/fixed_price_sale/types/types/creator.dart';
+import 'package:solana/solana/src/instructions/metaplex/token_meta_data/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/instructions/metaplex/token_meta_data/types/types/collection_details.dart';
+import 'package:solana/solana/src/instructions/metaplex/token_meta_data/types/types/print_supply.dart';
+import 'package:solana/solana/src/instructions/metaplex/token_meta_data/types/types/token_standard.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class MetaplexTokenMetaDataCreateV1Layout
     extends MetaplexTokenMetaDataProgramLayout {

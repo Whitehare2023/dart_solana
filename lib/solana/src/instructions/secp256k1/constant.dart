@@ -1,5 +1,5 @@
 // Constants related to the Secp256k1 program.
-import 'package:on_chain/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
 
 /// Represents constant values for the Secp256k1 program.
 class Secp256k1ProgramConst {

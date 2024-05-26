@@ -1,8 +1,8 @@
 import 'package:blockchain_utils/exception/exception.dart';
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/models/models.dart';
-import 'package:on_chain/solana/src/transaction/core/core.dart';
-import 'package:on_chain/solana/src/transaction/utils/utils.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/models/models.dart';
+import 'package:solana/solana/src/transaction/core/core.dart';
+import 'package:solana/solana/src/transaction/utils/utils.dart';
 
 /// A class representing a version 0 Solana message.
 class MessageV0 implements VersionedMessage {

@@ -1,4 +1,4 @@
-import 'package:on_chain/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
 
 class StakePoolProgramConst {
   /// Public key that identifies the SPL Stake Pool program.

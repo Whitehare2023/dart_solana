@@ -1,6 +1,7 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/layout/byte_writer/layout_byte_write.dart';
-import 'package:on_chain/solana/src/layout/utils/layout_utils.dart';
+import 'package:solana/solana/src/layout/byte_writer/layout_byte_write.dart';
+import 'package:solana/solana/src/layout/utils/layout_utils.dart';
+
 import 'core.dart';
 import 'numeric.dart';
 

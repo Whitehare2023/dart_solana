@@ -1,5 +1,5 @@
-import 'package:on_chain/solana/src/instructions/token_lending/layouts/instruction/instruction.dart';
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/instructions/token_lending/layouts/instruction/instruction.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 /// Repay borrowed liquidity to a reserve to receive collateral at a
 /// discount from an unhealthy obligation layout.

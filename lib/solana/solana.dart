@@ -1,3 +1,3 @@
-library on_chain;
+library solana;
 
 export 'solana.dart';

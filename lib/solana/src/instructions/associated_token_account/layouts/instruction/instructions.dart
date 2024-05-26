@@ -1,4 +1,4 @@
-import 'package:on_chain/solana/src/layout/layout.dart';
+import 'package:solana/solana/src/layout/layout.dart';
 
 class AssociatedTokenAccountProgramInstruction
     implements ProgramLayoutInstruction {

@@ -1,8 +1,9 @@
 import 'dart:typed_data';
+
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:on_chain/solana/src/address/sol_address.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/bubblegum/types/types.dart';
-import 'package:on_chain/solana/src/instructions/metaplex/fixed_price_sale/types/types/creator.dart';
+import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:solana/solana/src/instructions/metaplex/bubblegum/types/types.dart';
+import 'package:solana/solana/src/instructions/metaplex/fixed_price_sale/types/types/creator.dart';
 
 class MetaplexBubblegumProgramUtils {
   static List<int> computeDataHash(MetaData metaData) {
