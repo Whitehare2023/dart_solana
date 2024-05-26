@@ -1,9 +1,9 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/ed25519/constant.dart';
-import 'package:solana/solana/src/instructions/ed25519/layouts/ed25519.dart';
-import 'package:solana/solana/src/layout/program_layouts/core/program_layout.dart';
-import 'package:solana/solana/src/models/account/account_meta.dart';
-import 'package:solana/solana/src/models/transaction/instruction.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/ed25519/constant.dart';
+import 'package:dart_solana/solana/src/instructions/ed25519/layouts/ed25519.dart';
+import 'package:dart_solana/solana/src/layout/program_layouts/core/program_layout.dart';
+import 'package:dart_solana/solana/src/models/account/account_meta.dart';
+import 'package:dart_solana/solana/src/models/transaction/instruction.dart';
 
 /// Represents an instruction for the Ed25519 program.
 class Ed25519Program extends TransactionInstruction {

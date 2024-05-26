@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/metaplex/gumdrop/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/gumdrop/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class MetaplexGumdropNewDistributorLayout extends MetaplexGumdropProgramLayout {
   final int bump;

@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/metaplex/token_meta_data/constant.dart';
-import 'package:solana/solana/src/models/pda/pda.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/token_meta_data/constant.dart';
+import 'package:dart_solana/solana/src/models/pda/pda.dart';
 
 import 'types/types/meta_data_delegate_role.dart';
 

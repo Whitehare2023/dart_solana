@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/layout/program_layouts/program_layout.dart';
-import 'package:solana/solana/src/models/models.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/layout/program_layouts/program_layout.dart';
+import 'package:dart_solana/solana/src/models/models.dart';
 
 class CustomProgram extends TransactionInstruction {
   CustomProgram({

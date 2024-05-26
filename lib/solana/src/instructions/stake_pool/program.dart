@@ -1,12 +1,12 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/spl_token/constant.dart';
-import 'package:solana/solana/src/instructions/stake/constant.dart';
-import 'package:solana/solana/src/instructions/stake_pool/constant.dart';
-import 'package:solana/solana/src/instructions/stake_pool/layouts/layouts.dart';
-import 'package:solana/solana/src/instructions/system/constant.dart';
-import 'package:solana/solana/src/layout/program_layouts/core/program_layout.dart';
-import 'package:solana/solana/src/models/account/account_meta.dart';
-import 'package:solana/solana/src/models/transaction/instruction.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/constant.dart';
+import 'package:dart_solana/solana/src/instructions/stake/constant.dart';
+import 'package:dart_solana/solana/src/instructions/stake_pool/constant.dart';
+import 'package:dart_solana/solana/src/instructions/stake_pool/layouts/layouts.dart';
+import 'package:dart_solana/solana/src/instructions/system/constant.dart';
+import 'package:dart_solana/solana/src/layout/program_layouts/core/program_layout.dart';
+import 'package:dart_solana/solana/src/models/account/account_meta.dart';
+import 'package:dart_solana/solana/src/models/transaction/instruction.dart';
 
 class StakePoolProgram extends TransactionInstruction {
   StakePoolProgram({

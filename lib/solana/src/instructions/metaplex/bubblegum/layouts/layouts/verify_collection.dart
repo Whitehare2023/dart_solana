@@ -1,7 +1,7 @@
 import 'package:blockchain_utils/binary/utils.dart';
-import 'package:solana/solana/src/instructions/metaplex/bubblegum/layouts/instructions/instruction.dart';
-import 'package:solana/solana/src/instructions/metaplex/bubblegum/types/types/meta_data.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/bubblegum/layouts/instructions/instruction.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/bubblegum/types/types/meta_data.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class MetaplexBubblegumVerifyCollectionLayout
     extends MetaplexBubblegumProgramLayout {

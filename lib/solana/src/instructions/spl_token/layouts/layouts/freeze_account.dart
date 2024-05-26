@@ -1,6 +1,6 @@
 // Manages the layout structure for freezing an SPL token account.
-import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Freeze an Initialized account.
 class SPLTokenFreezAccountLayout extends SPLTokenProgramLayout {

@@ -1,8 +1,8 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/spl_token_meta_data/layouts/layouts.dart';
-import 'package:solana/solana/src/layout/program_layouts/core/program_layout.dart';
-import 'package:solana/solana/src/models/account/account_meta.dart';
-import 'package:solana/solana/src/models/transaction/instruction.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token_meta_data/layouts/layouts.dart';
+import 'package:dart_solana/solana/src/layout/program_layouts/core/program_layout.dart';
+import 'package:dart_solana/solana/src/models/account/account_meta.dart';
+import 'package:dart_solana/solana/src/models/transaction/instruction.dart';
 
 /// Represents transaction instructions related to the SPL token metadata program.
 class SPLTokenMetaDataProgram extends TransactionInstruction {

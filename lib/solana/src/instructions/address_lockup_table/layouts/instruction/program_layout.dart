@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/address_lockup_table/layouts/layouts.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/address_lockup_table/layouts/layouts.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 abstract class AddressLookupTableProgramLayout extends ProgramLayout {
   const AddressLookupTableProgramLayout();

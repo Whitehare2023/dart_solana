@@ -1,4 +1,4 @@
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class AllowListProof extends LayoutSerializable {
   final BigInt timestamp;

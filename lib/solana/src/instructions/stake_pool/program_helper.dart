@@ -1,11 +1,11 @@
 import 'dart:math' as math;
 
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/instructions.dart';
-import 'package:solana/solana/src/instructions/stake_pool/rpc/rpcs/get_stake_validator_list_account.dart';
-import 'package:solana/solana/src/models/models.dart';
-import 'package:solana/solana/src/rpc/rpc.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/instructions.dart';
+import 'package:dart_solana/solana/src/instructions/stake_pool/rpc/rpcs/get_stake_validator_list_account.dart';
+import 'package:dart_solana/solana/src/models/models.dart';
+import 'package:dart_solana/solana/src/rpc/rpc.dart';
 
 import 'utils.dart';
 

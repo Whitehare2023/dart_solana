@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/instructions/metaplex/bubblegum/types/types/change_log.dart';
-import 'package:solana/solana/src/instructions/metaplex/bubblegum/types/types/path.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/bubblegum/types/types/change_log.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/bubblegum/types/types/path.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class ConcurrentMerkleTree extends LayoutSerializable {
   final BigInt sequenceNumber;

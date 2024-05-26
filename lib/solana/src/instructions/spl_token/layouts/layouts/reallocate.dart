@@ -1,7 +1,7 @@
 // Manages the layout structure for reallocating SPL token extensions.
-import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/instructions/spl_token/types/types.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/types/types.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// use reallocation to increase the data size layout.
 class SPLTokenReallocateLayout extends SPLTokenProgramLayout {

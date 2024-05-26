@@ -1,6 +1,6 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class _Utils {
   static const List<int> discriminator = [77, 119, 139, 70, 84, 247, 12, 26];

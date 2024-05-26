@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/rpc/models/rpc_models.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/rpc/models/rpc_models.dart';
 
 /// Accounts configuration object
 class RPCAccountConfig {

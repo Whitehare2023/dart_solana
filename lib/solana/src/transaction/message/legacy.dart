@@ -1,8 +1,8 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/models/models.dart';
-import 'package:solana/solana/src/transaction/core/core.dart';
-import 'package:solana/solana/src/transaction/utils/utils.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/models/models.dart';
+import 'package:dart_solana/solana/src/transaction/core/core.dart';
+import 'package:dart_solana/solana/src/transaction/utils/utils.dart';
 
 /// A class representing a legacy Solana message.
 class Message implements VersionedMessage {

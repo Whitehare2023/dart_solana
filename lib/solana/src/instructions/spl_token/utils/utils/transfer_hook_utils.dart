@@ -1,9 +1,9 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/spl_token/types/types.dart';
-import 'package:solana/solana/src/models/models.dart';
-import 'package:solana/solana/src/models/pda/pda.dart';
-import 'package:solana/solana/src/rpc/rpc.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/types/types.dart';
+import 'package:dart_solana/solana/src/models/models.dart';
+import 'package:dart_solana/solana/src/models/pda/pda.dart';
+import 'package:dart_solana/solana/src/rpc/rpc.dart';
 
 class TransferHookUtils {
   static Tuple<List<int>, int> unpackSeedLiteral(List<int> seeds) {

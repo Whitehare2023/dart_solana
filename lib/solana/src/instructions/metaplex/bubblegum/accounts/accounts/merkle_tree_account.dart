@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/metaplex/bubblegum/types/types.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/bubblegum/types/types.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class _Utils {
   static final headerLayout = LayoutUtils.struct([

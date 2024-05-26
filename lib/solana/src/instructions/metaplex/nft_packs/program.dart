@@ -1,7 +1,7 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/instructions.dart';
-import 'package:solana/solana/src/layout/layout.dart';
-import 'package:solana/solana/src/models/models.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/instructions.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/models/models.dart';
 
 class MetaplexNFTPacksProgram extends TransactionInstruction {
   MetaplexNFTPacksProgram({

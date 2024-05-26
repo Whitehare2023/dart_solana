@@ -1,6 +1,6 @@
 // Manages the layout structure for the SPL token burn operation.
-import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Burns tokens by removing them from an account layout.
 class SPLTokenBurnLayout extends SPLTokenProgramLayout {

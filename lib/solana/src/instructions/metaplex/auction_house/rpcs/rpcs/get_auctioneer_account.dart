@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/metaplex/auction_house/accounts/accounts/auctioneer.dart';
-import 'package:solana/solana/src/rpc/rpc.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/auction_house/accounts/accounts/auctioneer.dart';
+import 'package:dart_solana/solana/src/rpc/rpc.dart';
 
 /// Retrieves the account info from the provided address and deserializes
 /// the [Auctioneer] from its data.

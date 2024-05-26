@@ -1,7 +1,7 @@
-import 'package:solana/solana/src/instructions/compute_budget/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/core/core.dart';
-import 'package:solana/solana/src/layout/program_layouts/core/program_layout.dart';
-import 'package:solana/solana/src/layout/utils/layout_utils.dart';
+import 'package:dart_solana/solana/src/instructions/compute_budget/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/core/core.dart';
+import 'package:dart_solana/solana/src/layout/program_layouts/core/program_layout.dart';
+import 'package:dart_solana/solana/src/layout/utils/layout_utils.dart';
 
 /// Structure for the ComputeBudgetSetComputeUnitPrice instruction.
 class ComputeBudgetSetComputeUnitPriceLayout

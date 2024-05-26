@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/metaplex/token_meta_data/token_meta_data.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/token_meta_data/token_meta_data.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class CollectionDetailsToggle extends LayoutSerializable {
   final String name;

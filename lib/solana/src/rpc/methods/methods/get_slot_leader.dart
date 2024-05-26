@@ -1,7 +1,7 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/rpc/core/rpc.dart';
-import 'package:solana/solana/src/rpc/models/rpc_models.dart';
-import 'package:solana/solana/src/rpc/utils/solana_rpc_utils.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/rpc/core/rpc.dart';
+import 'package:dart_solana/solana/src/rpc/models/rpc_models.dart';
+import 'package:dart_solana/solana/src/rpc/utils/solana_rpc_utils.dart';
 
 /// Returns the current slot leader
 /// https://solana.com/docs/rpc/http/getslotleader

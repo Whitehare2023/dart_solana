@@ -1,6 +1,6 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/rpc/models/models/encoding.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/rpc/models/models/encoding.dart';
 
 class SolanaAccountInfo {
   factory SolanaAccountInfo.fromJson(Map<String, dynamic> json) {

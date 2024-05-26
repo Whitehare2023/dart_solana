@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/instructions/stake/types/types/authorized.dart';
-import 'package:solana/solana/src/instructions/stake/types/types/lockup.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/stake/types/types/authorized.dart';
+import 'package:dart_solana/solana/src/instructions/stake/types/types/lockup.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class StakeMeta extends LayoutSerializable {
   final StakeLockup lockup;

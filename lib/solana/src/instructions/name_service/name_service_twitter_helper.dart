@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:blockchain_utils/exception/exception.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/name_service/name_service.dart';
-import 'package:solana/solana/src/models/models.dart';
-import 'package:solana/solana/src/rpc/rpc.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/name_service/name_service.dart';
+import 'package:dart_solana/solana/src/models/models.dart';
+import 'package:dart_solana/solana/src/rpc/rpc.dart';
 
 class NameServiceProgramTwitterHelper {
   /// Signed by the authority, the payer and the verified pubkey

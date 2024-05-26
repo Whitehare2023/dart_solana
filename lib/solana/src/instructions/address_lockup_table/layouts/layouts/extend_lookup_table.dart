@@ -1,8 +1,8 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/address_lockup_table/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/core/core.dart';
-import 'package:solana/solana/src/layout/program_layouts/core/program_layout.dart';
-import 'package:solana/solana/src/layout/utils/layout_utils.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/address_lockup_table/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/core/core.dart';
+import 'package:dart_solana/solana/src/layout/program_layouts/core/program_layout.dart';
+import 'package:dart_solana/solana/src/layout/utils/layout_utils.dart';
 
 /// Structure for the AddressExtendLookupTable instruction.
 class AddressExtendLookupTableLayout extends AddressLookupTableProgramLayout {

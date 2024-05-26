@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/rpc/models/rpc_models.dart';
+import 'package:dart_solana/solana/src/rpc/models/rpc_models.dart';
 
 class ResultWithContext<T> {
   const ResultWithContext({required this.result, required this.context});

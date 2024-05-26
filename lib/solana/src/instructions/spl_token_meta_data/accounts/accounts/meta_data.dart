@@ -1,8 +1,8 @@
 import 'package:blockchain_utils/exception/exception.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/spl_token/spl_token.dart';
-import 'package:solana/solana/src/instructions/spl_token_meta_data/types/types/additional_metadata.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/spl_token.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token_meta_data/types/types/additional_metadata.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class _Utils {
   static final Structure layout = LayoutUtils.struct([

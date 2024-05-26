@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/spl_token_swap/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token_swap/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Deposit both types of tokens into the pool layoyt.
 class SPLTokenSwapDepositLayout extends SPLTokenSwapProgramLayout {

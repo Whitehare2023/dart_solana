@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/token_lending/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/token_lending/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Sets the new owner of a lending market layout.
 class TokenLendingSetLendingMarketOwnerLayout

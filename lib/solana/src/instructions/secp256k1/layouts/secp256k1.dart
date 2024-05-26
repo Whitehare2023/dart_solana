@@ -1,8 +1,8 @@
 // Manages the layout structure for a Solana program involving Ethereum's secp256k1 signatures.
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/ethereum/src/address/evm_address.dart';
-import 'package:solana/ethereum/src/keys/private_key.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/ethereum/src/address/evm_address.dart';
+import 'package:dart_solana/ethereum/src/keys/private_key.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class Secp256k1Layout extends ProgramLayout {
   /// Ethereum address used in the layout.

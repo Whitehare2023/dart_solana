@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/name_service/layouts/layouts.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/name_service/layouts/layouts.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 abstract class NameServiceProgramLayout extends ProgramLayout {
   const NameServiceProgramLayout();

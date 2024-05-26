@@ -1,4 +1,4 @@
-import 'package:solana/solana/src/rpc/core/rpc.dart';
+import 'package:dart_solana/solana/src/rpc/core/rpc.dart';
 
 /// Subscribe to receive notification anytime a new root is set by the validator.
 /// https://solana.com/docs/rpc/websocket/rootSubscribe

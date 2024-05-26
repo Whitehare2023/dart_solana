@@ -1,8 +1,8 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/rpc/core/core.dart';
-import 'package:solana/solana/src/rpc/core/methods.dart';
-import 'package:solana/solana/src/rpc/models/rpc_models.dart';
-import 'package:solana/solana/src/rpc/utils/solana_rpc_utils.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/rpc/core/core.dart';
+import 'package:dart_solana/solana/src/rpc/core/methods.dart';
+import 'package:dart_solana/solana/src/rpc/models/rpc_models.dart';
+import 'package:dart_solana/solana/src/rpc/utils/solana_rpc_utils.dart';
 
 /// Returns signatures for confirmed transactions that include the given address in their accountKeys list.
 /// Returns signatures backwards in time from the provided signature or most recent confirmed block

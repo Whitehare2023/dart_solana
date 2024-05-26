@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/spl_token/accounts/accounts/meta_data_pointer.dart';
-import 'package:solana/solana/src/rpc/rpc.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/accounts/accounts/meta_data_pointer.dart';
+import 'package:dart_solana/solana/src/rpc/rpc.dart';
 
 class SolanaRPCGetMetadataPointer extends SolanaRPCRequest<MetadataPointer?> {
   const SolanaRPCGetMetadataPointer({

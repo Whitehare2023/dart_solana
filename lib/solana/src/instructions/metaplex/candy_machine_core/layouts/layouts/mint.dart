@@ -1,6 +1,6 @@
 import 'package:blockchain_utils/binary/binary.dart';
-import 'package:solana/solana/src/instructions/metaplex/candy_machine_core/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/candy_machine_core/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class MetaplexCandyMachineMintLayout extends MetaplexCandyMachineProgramLayout {
   final List<int> mintArgs;

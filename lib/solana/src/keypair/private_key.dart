@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/keypair/public_key.dart';
+import 'package:dart_solana/solana/src/keypair/public_key.dart';
 
 /// Class representing a private key for Solana.
 class SolanaPrivateKey {

@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/instructions.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/instructions.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Encapsulates all fee information and calculations for swap operations
 class TokenSwapFees extends LayoutSerializable {

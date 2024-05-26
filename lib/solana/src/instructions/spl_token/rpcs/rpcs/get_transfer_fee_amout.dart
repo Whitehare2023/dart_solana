@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/spl_token/accounts/accounts/transfer_fee_amount.dart';
-import 'package:solana/solana/src/rpc/rpc.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/accounts/accounts/transfer_fee_amount.dart';
+import 'package:dart_solana/solana/src/rpc/rpc.dart';
 
 class SolanaRPCGetTransferFeeAmount
     extends SolanaRPCRequest<TransferFeeAmount?> {

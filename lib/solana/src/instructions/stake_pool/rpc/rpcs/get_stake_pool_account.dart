@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/stake_pool/accounts/accounts/stake_pool.dart';
-import 'package:solana/solana/src/rpc/rpc.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/stake_pool/accounts/accounts/stake_pool.dart';
+import 'package:dart_solana/solana/src/rpc/rpc.dart';
 
 /// Retrieves and deserializes a StakePool account.
 class SolanaRPCGetStakePoolAccount extends SolanaRPCRequest<StakePoolAccount?> {

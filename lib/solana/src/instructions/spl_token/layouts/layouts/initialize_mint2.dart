@@ -1,8 +1,8 @@
 // Manages the layout structure for initializing an SPL token mint with a specific instruction.
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/instructions/spl_token/layouts/layouts/initialize_mint.dart';
-import 'package:solana/solana/src/layout/program_layouts/core/program_layout.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/layouts/layouts/initialize_mint.dart';
+import 'package:dart_solana/solana/src/layout/program_layouts/core/program_layout.dart';
 
 /// Initializes a new mint layout
 class SPLTokenInitializeMint2Layout extends SPLTokenInitializeMintLayout {

@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/rpc/core/core.dart';
-import 'package:solana/solana/src/rpc/core/methods.dart';
+import 'package:dart_solana/solana/src/rpc/core/core.dart';
+import 'package:dart_solana/solana/src/rpc/core/methods.dart';
 
 /// Returns commitment for particular block
 /// https://solana.com/docs/rpc/http/getblockcommitment

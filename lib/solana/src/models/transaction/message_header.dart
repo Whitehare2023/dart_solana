@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/models/models.dart';
+import 'package:dart_solana/solana/src/models/models.dart';
 
 /// The message header, identifying signed and read-only account.
 class MessageHeader {

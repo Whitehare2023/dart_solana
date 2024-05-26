@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/instructions.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/instructions.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Initialize a new mint with interest accrual layout.
 class SPLToken2022InterestBearingMintInitializeLayout

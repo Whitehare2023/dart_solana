@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/instructions/token_lending/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/instructions/token_lending/layouts/types/reserve_confing.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/token_lending/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/instructions/token_lending/layouts/types/reserve_confing.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Initializes a new lending market reserve layout.
 class TokenLendingInitReserveLayout extends TokenLendingProgramLayout {

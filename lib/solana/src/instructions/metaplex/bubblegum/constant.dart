@@ -1,4 +1,4 @@
-import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
 
 class MetaplexBubblegumProgramConst {
   static int voucherSize = 213;

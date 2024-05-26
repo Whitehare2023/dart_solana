@@ -1,6 +1,6 @@
 import 'package:blockchain_utils/binary/utils.dart';
-import 'package:solana/solana/src/instructions/metaplex/bubblegum/layouts/instructions/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/bubblegum/layouts/instructions/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class MetaplexBubblegumTransferLayout extends MetaplexBubblegumProgramLayout {
   final List<int> root;

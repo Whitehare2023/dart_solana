@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/spl_token/layouts/layouts.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/layouts/layouts.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 abstract class SPLTokenProgramLayout extends ProgramLayout {
   const SPLTokenProgramLayout();

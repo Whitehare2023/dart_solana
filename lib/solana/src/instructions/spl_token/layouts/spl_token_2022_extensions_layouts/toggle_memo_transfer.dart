@@ -1,7 +1,7 @@
 // Manages the layout structure for the SPL token approve checked operation.
-import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/instructions/spl_token/types/types.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/types/types.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Require memos or Stop requiring memos layout.
 class SPLToken2022ToggleMemoTransferLayout extends SPLTokenProgramLayout {

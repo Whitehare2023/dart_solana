@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/stake_pool/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/stake_pool/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Increase stake on a validator from the reserve account layout.
 class StakePoolIncreaseValidatorStakeLayout extends StakePoolProgramLayout {

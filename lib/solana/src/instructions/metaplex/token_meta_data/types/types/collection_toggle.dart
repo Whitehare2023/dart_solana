@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/metaplex/bubblegum/bubblegum.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/bubblegum/bubblegum.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class CollectionToggle extends LayoutSerializable {
   final String name;

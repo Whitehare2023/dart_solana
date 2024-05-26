@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/spl_token/accounts/accounts/memo_transfer.dart';
-import 'package:solana/solana/src/rpc/rpc.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/accounts/accounts/memo_transfer.dart';
+import 'package:dart_solana/solana/src/rpc/rpc.dart';
 
 class SolanaRPCGetMemoTransfer extends SolanaRPCRequest<MemoTransfer?> {
   const SolanaRPCGetMemoTransfer({

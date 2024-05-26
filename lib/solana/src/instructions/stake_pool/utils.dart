@@ -1,8 +1,8 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/spl_token/constant.dart';
-import 'package:solana/solana/src/instructions/stake_pool/constant.dart';
-import 'package:solana/solana/src/layout/layout.dart';
-import 'package:solana/solana/src/models/pda/pda.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/constant.dart';
+import 'package:dart_solana/solana/src/instructions/stake_pool/constant.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/models/pda/pda.dart';
 
 class StakePoolProgramUtils {
   /// Generates the withdraw authority program address for the stake pool

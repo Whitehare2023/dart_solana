@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/compute_budget/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/compute_budget/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Structure for the ComputeBudgetRequestUnits instruction.
 class ComputeBudgetRequestUnitsLayout extends ComputeBudgetProgramLayout {

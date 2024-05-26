@@ -1,11 +1,11 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/address_lockup_table/accounts/accounts/account_lookup_table.dart';
-import 'package:solana/solana/src/models/lockup/extract_table_lookup.dart';
-import 'package:solana/solana/src/models/lockup/table_lookup.dart';
-import 'package:solana/solana/src/models/transaction/instruction.dart';
-import 'package:solana/solana/src/models/transaction/message_header.dart';
-import 'package:solana/solana/src/transaction/constant/solana_transaction_constant.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/address_lockup_table/accounts/accounts/account_lookup_table.dart';
+import 'package:dart_solana/solana/src/models/lockup/extract_table_lookup.dart';
+import 'package:dart_solana/solana/src/models/lockup/table_lookup.dart';
+import 'package:dart_solana/solana/src/models/transaction/instruction.dart';
+import 'package:dart_solana/solana/src/models/transaction/message_header.dart';
+import 'package:dart_solana/solana/src/transaction/constant/solana_transaction_constant.dart';
 
 class CompiledKeys {
   final SolAddress payer;

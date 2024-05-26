@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/instructions/metaplex/auction_house/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/instructions/metaplex/auction_house/types/types/authority_scope.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/auction_house/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/auction_house/types/types/authority_scope.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class MetaplexAuctionHouseUpdateAuctioneerLayout
     extends MetaplexAuctionHouseProgramLayout {

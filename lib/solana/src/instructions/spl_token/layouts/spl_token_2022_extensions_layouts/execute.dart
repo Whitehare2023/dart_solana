@@ -1,6 +1,6 @@
 // Manages the layout structure for the SPL token approve checked operation.
-import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class SPLToken2022ExecuteLayout extends SPLTokenProgramLayout {
   static const List<int> discriminator = [105, 37, 101, 197, 75, 251, 102, 26];

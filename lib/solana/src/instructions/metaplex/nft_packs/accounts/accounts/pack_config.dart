@@ -1,7 +1,7 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/instructions/metaplex/nft_packs/types/types/account_type.dart';
-import 'package:solana/solana/src/instructions/metaplex/nft_packs/types/types/clean_up_action.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/nft_packs/types/types/account_type.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/nft_packs/types/types/clean_up_action.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class _Utils {
   static Structure layout(int? cleanUpAction) => LayoutUtils.struct([

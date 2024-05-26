@@ -1,4 +1,4 @@
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class _Utils {
   static final Structure layout =

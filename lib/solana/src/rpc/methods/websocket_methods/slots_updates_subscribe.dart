@@ -1,4 +1,4 @@
-import 'package:solana/solana/src/rpc/core/rpc.dart';
+import 'package:dart_solana/solana/src/rpc/core/rpc.dart';
 
 /// Subscribe to receive a notification from the validator on a variety of updates on every slot.
 /// https://solana.com/docs/rpc/websocket/slotsupdatessubscribe

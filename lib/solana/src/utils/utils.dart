@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
 
 /// Utility class for Solana-related operations.
 class SolanaUtils {

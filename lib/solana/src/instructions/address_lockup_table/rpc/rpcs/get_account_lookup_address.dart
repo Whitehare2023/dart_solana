@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/address_lockup_table/address_lockup.dart';
-import 'package:solana/solana/src/rpc/rpc.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/address_lockup_table/address_lockup.dart';
+import 'package:dart_solana/solana/src/rpc/rpc.dart';
 
 class SolanaRPCGetAccountLookupAddres
     extends SolanaRPCRequest<AddressLookupTableAccount?> {

@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/rpc/core/core.dart';
-import 'package:solana/solana/src/rpc/core/methods.dart';
+import 'package:dart_solana/solana/src/rpc/core/core.dart';
+import 'package:dart_solana/solana/src/rpc/core/methods.dart';
 
 /// Returns the slot of the lowest confirmed block that has not been purged from the ledger
 /// https://solana.com/docs/rpc/http/getfirstavailableblock

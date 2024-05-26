@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/rpc/core/core.dart';
-import 'package:solana/solana/src/rpc/core/methods.dart';
+import 'package:dart_solana/solana/src/rpc/core/core.dart';
+import 'package:dart_solana/solana/src/rpc/core/methods.dart';
 
 /// Returns the identity pubkey for the current node
 /// https://solana.com/docs/rpc/http/getidentity

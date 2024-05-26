@@ -1,4 +1,4 @@
-import 'package:solana/solana/src/models/transaction/compiled_instructon.dart';
+import 'package:dart_solana/solana/src/models/transaction/compiled_instructon.dart';
 
 class CompiledInnerInstruction {
   final int index;

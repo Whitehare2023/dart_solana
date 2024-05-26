@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/metaplex/candy_machine_core/types/candy_guard_types/types/guard_set.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/candy_machine_core/types/candy_guard_types/types/guard_set.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class Group extends LayoutSerializable {
   final String label;

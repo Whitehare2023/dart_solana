@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/binary/binary.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 import 'guard_type.dart';
 

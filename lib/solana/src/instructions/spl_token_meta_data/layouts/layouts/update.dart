@@ -1,7 +1,7 @@
 // Imports the necessary packages for interacting with blockchain utilities and Solana's layout structure.
-import 'package:solana/solana/src/instructions/spl_token_meta_data/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/instructions/spl_token_meta_data/types/types/field.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token_meta_data/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token_meta_data/types/types/field.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Updates a field in a token-metadata account layout.
 class SPLTokenMetaDataUpdateLayout extends SPLTokenMetaDataProgramLayout {

@@ -1,7 +1,7 @@
-import 'package:solana/solana/src/rpc/core/core.dart';
-import 'package:solana/solana/src/rpc/core/methods.dart';
-import 'package:solana/solana/src/rpc/models/rpc_models.dart';
-import 'package:solana/solana/src/rpc/utils/solana_rpc_utils.dart';
+import 'package:dart_solana/solana/src/rpc/core/core.dart';
+import 'package:dart_solana/solana/src/rpc/core/methods.dart';
+import 'package:dart_solana/solana/src/rpc/models/rpc_models.dart';
+import 'package:dart_solana/solana/src/rpc/utils/solana_rpc_utils.dart';
 
 /// The returned signature is the first signature in the transaction, which is used to identify the transaction (transaction id).
 /// This identifier can be easily extracted from the transaction data before submission.

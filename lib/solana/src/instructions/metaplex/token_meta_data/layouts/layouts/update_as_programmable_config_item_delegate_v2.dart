@@ -1,7 +1,7 @@
-import 'package:solana/solana/src/instructions/metaplex/token_meta_data/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/instructions/metaplex/token_meta_data/types/types/payload.dart';
-import 'package:solana/solana/src/instructions/metaplex/token_meta_data/types/types/rule_set_toggle.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/token_meta_data/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/token_meta_data/types/types/payload.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/token_meta_data/types/types/rule_set_toggle.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class MetaplexTokenMetaDataUpdateAsProgrammableConfigItemDelegateV2Layout
     extends MetaplexTokenMetaDataUpdateProgramLayout {

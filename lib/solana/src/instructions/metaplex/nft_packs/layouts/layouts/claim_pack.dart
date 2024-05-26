@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/metaplex/nft_packs/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/nft_packs/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class MetaplexNFTPacksClaimPackLayout extends MetaplexNFTPacksProgramLayout {
   final int index;

@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Any additional metadata about the token as key-value pairs. The program
 /// must avoid storing the same key twice.

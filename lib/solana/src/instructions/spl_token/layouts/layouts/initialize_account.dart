@@ -1,6 +1,6 @@
 // Manages the layout structure for initializing an SPL token account.
-import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Initializes a new account to hold tokens layout.
 class SPLTokenInitializeAccountLayout extends SPLTokenProgramLayout {

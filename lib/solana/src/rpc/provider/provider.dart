@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/rpc/rpc.dart';
+import 'package:dart_solana/solana/src/rpc/rpc.dart';
 
 /// Represents an interface to interact with Solana nodes
 /// using JSON-RPC requests.

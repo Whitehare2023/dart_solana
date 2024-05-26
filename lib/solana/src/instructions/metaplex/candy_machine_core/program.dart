@@ -1,9 +1,9 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/metaplex/candy_machine_core/layouts/layouts.dart';
-import 'package:solana/solana/src/instructions/spl_token/constant.dart';
-import 'package:solana/solana/src/instructions/system/constant.dart';
-import 'package:solana/solana/src/layout/layout.dart';
-import 'package:solana/solana/src/models/models.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/candy_machine_core/layouts/layouts.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/constant.dart';
+import 'package:dart_solana/solana/src/instructions/system/constant.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/models/models.dart';
 
 import 'constant.dart';
 

@@ -1,4 +1,4 @@
-import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
 
 class AssociatedTokenAccountProgramConst {
   /// Address of the SPL Associated Token Account program

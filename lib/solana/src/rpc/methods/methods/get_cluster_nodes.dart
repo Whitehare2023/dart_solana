@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/rpc/core/core.dart';
-import 'package:solana/solana/src/rpc/core/methods.dart';
-import 'package:solana/solana/src/rpc/models/rpc_models.dart';
+import 'package:dart_solana/solana/src/rpc/core/core.dart';
+import 'package:dart_solana/solana/src/rpc/core/methods.dart';
+import 'package:dart_solana/solana/src/rpc/models/rpc_models.dart';
 
 /// Returns information about all the nodes participating in the clusterot
 /// https://solana.com/docs/rpc/http/getclusternodes

@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class _Utils {
   static const List<int> discriminator = [185, 62, 74, 60, 105, 158, 178, 125];

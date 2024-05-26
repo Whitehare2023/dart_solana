@@ -1,7 +1,7 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/name_service/constant.dart';
-import 'package:solana/solana/src/utils/utils.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/name_service/constant.dart';
+import 'package:dart_solana/solana/src/utils/utils.dart';
 
 /// A utility class for working with the Name Service program.
 class NameServiceProgramUtils {

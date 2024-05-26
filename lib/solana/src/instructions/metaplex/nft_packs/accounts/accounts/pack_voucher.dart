@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/metaplex/nft_packs/types/types/account_type.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/nft_packs/types/types/account_type.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class _Utils {
   static final Structure layout = LayoutUtils.struct([

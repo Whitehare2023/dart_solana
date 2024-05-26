@@ -1,7 +1,7 @@
 import 'package:blockchain_utils/exception/exception.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/spl_token_swap/accounts/accounts.dart';
-import 'package:solana/solana/src/rpc/rpc.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token_swap/accounts/accounts.dart';
+import 'package:dart_solana/solana/src/rpc/rpc.dart';
 
 class SolanaRPCSPLTokenSwapAccount
     extends SolanaRPCRequest<SPLTokenSwapAccount?> {

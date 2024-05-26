@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/stake/types/types/delegation.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/stake/types/types/delegation.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class StakeStake extends LayoutSerializable {
   final StakeDelegation delegation;

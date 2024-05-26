@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 import 'concurrent_merkle_tree_header_data_v1.dart';
 

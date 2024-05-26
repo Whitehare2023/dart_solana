@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/metaplex/token_meta_data/types/types/payload_type.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/token_meta_data/types/types/payload_type.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class Payload extends LayoutSerializable {
   final Map<String, PayloadType> map;

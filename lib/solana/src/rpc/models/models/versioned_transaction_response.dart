@@ -1,6 +1,6 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/rpc/models/rpc_models.dart';
-import 'package:solana/solana/src/transaction/transaction.dart';
+import 'package:dart_solana/solana/src/rpc/models/rpc_models.dart';
+import 'package:dart_solana/solana/src/transaction/transaction.dart';
 
 import 'confirmed_transaction_meta.dart';
 

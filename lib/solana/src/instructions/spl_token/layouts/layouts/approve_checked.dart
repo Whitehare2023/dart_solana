@@ -1,6 +1,6 @@
 // Manages the layout structure for the SPL token approve checked operation.
-import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Represents the layout for the SPL token approve checked operation.
 class SPLTokenApproveCheckedLayout extends SPLTokenProgramLayout {

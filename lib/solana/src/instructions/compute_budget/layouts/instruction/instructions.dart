@@ -1,4 +1,4 @@
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// An enumeration of valid ComputeBudgetInstructionType's
 class ComputeBudgetProgramInstruction implements ProgramLayoutInstruction {

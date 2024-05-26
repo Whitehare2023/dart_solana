@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/metaplex/token_meta_data/accounts/accounts.dart';
-import 'package:solana/solana/src/rpc/rpc.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/token_meta_data/accounts/accounts.dart';
+import 'package:dart_solana/solana/src/rpc/rpc.dart';
 
 /// Retrieves the account info from the provided address and deserializes
 /// the [EditionMarkerV2] from its data.

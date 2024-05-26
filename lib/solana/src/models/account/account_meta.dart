@@ -1,4 +1,4 @@
-import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
 
 /// Class representing metadata for an account, including its public key, signer status, and writability.
 class AccountMeta {

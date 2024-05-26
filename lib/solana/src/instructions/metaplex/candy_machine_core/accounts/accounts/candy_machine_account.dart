@@ -1,7 +1,7 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/metaplex/candy_machine_core/types/types.dart';
-import 'package:solana/solana/src/instructions/metaplex/token_meta_data/types/types/token_standard.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/candy_machine_core/types/types.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/token_meta_data/types/types/token_standard.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class _Utils {
   static const List<int> discriminator = [51, 173, 177, 113, 25, 241, 109, 189];

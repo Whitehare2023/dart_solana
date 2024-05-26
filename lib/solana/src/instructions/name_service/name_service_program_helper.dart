@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/name_service/name_service.dart';
-import 'package:solana/solana/src/models/transaction/instruction.dart';
-import 'package:solana/solana/src/rpc/rpc.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/name_service/name_service.dart';
+import 'package:dart_solana/solana/src/models/transaction/instruction.dart';
+import 'package:dart_solana/solana/src/rpc/rpc.dart';
 
 class NameServiceProgramHelper {
   /// Creates a name account with the given rent budget, allocated space, owner and class

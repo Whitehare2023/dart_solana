@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/instructions/instructions.dart';
+import 'package:dart_solana/solana/src/instructions/instructions.dart';
 
 class SPLToken2022Utils {
   static const int typeSize = 2;

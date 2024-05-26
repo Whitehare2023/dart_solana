@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/metaplex/bubblegum/types/types/leaf_schame_record.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/bubblegum/types/types/leaf_schame_record.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class _Utils {
   static const List<int> discriminator = [191, 204, 149, 234, 213, 165, 13, 65];

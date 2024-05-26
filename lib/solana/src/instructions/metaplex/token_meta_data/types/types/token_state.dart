@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/exception/exception.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class TokenState extends LayoutSerializable {
   final String name;

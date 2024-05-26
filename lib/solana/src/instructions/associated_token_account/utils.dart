@@ -1,8 +1,8 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/associated_token_account/constant.dart';
-import 'package:solana/solana/src/instructions/instructions.dart';
-import 'package:solana/solana/src/models/pda/pda.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/associated_token_account/constant.dart';
+import 'package:dart_solana/solana/src/instructions/instructions.dart';
+import 'package:dart_solana/solana/src/models/pda/pda.dart';
 
 class AssociatedTokenAccountProgramUtils {
   /// Finds the address of the Associated Token Account.

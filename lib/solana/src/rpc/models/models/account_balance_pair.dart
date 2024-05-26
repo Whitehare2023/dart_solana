@@ -1,5 +1,5 @@
 import 'package:blockchain_utils/numbers/bigint_utils.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
 
 class AccountBalancePairResponse {
   const AccountBalancePairResponse(

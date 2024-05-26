@@ -1,10 +1,10 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/metaplex/fixed_price_sale/constant.dart';
-import 'package:solana/solana/src/instructions/metaplex/fixed_price_sale/layouts/layouts.dart';
-import 'package:solana/solana/src/instructions/spl_token/constant.dart';
-import 'package:solana/solana/src/instructions/system/constant.dart';
-import 'package:solana/solana/src/layout/program_layouts/program_layout.dart';
-import 'package:solana/solana/src/models/models.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/fixed_price_sale/constant.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/fixed_price_sale/layouts/layouts.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/constant.dart';
+import 'package:dart_solana/solana/src/instructions/system/constant.dart';
+import 'package:dart_solana/solana/src/layout/program_layouts/program_layout.dart';
+import 'package:dart_solana/solana/src/models/models.dart';
 
 class MetaplexFixedPriceSaleProgram extends TransactionInstruction {
   MetaplexFixedPriceSaleProgram({

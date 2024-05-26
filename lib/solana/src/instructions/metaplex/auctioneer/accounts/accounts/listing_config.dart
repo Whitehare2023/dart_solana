@@ -1,5 +1,5 @@
-import 'package:solana/solana/src/instructions/metaplex/auctioneer/types/types.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/metaplex/auctioneer/types/types.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 class _Utils {
   static const List<int> discriminator = [183, 196, 26, 41, 131, 46, 184, 115];

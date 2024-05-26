@@ -1,6 +1,6 @@
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/instructions.dart';
-import 'package:solana/solana/src/rpc/models/models/account_info.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/instructions.dart';
+import 'package:dart_solana/solana/src/rpc/models/models/account_info.dart';
 
 class TokenAccountResponse {
   final SolAddress pubkey;

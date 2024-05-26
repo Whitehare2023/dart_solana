@@ -1,6 +1,6 @@
 // Manages the layout structure for converting SPL token amount to UI amount.
-import 'package:solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/layout/layout.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/layout/layout.dart';
 
 /// Convert an Amount of tokens to a UiAmount layout.
 class SPLTokenAmountToUiAmountLayout extends SPLTokenProgramLayout {

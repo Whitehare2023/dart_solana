@@ -1,9 +1,9 @@
 import 'package:blockchain_utils/binary/binary.dart';
-import 'package:solana/solana/src/instructions/spl_token_swap/layouts/instruction/instruction.dart';
-import 'package:solana/solana/src/instructions/spl_token_swap/types/types.dart';
-import 'package:solana/solana/src/layout/core/core.dart';
-import 'package:solana/solana/src/layout/program_layouts/core/program_layout.dart';
-import 'package:solana/solana/src/layout/utils/layout_utils.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token_swap/layouts/instruction/instruction.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token_swap/types/types.dart';
+import 'package:dart_solana/solana/src/layout/core/core.dart';
+import 'package:dart_solana/solana/src/layout/program_layouts/core/program_layout.dart';
+import 'package:dart_solana/solana/src/layout/utils/layout_utils.dart';
 
 /// Initializes a new swap layout
 class SPLTokenSwapInitSwapLayout extends SPLTokenSwapProgramLayout {

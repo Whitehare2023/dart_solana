@@ -1,10 +1,10 @@
 import 'package:blockchain_utils/blockchain_utils.dart';
-import 'package:solana/solana/src/address/sol_address.dart';
-import 'package:solana/solana/src/instructions/spl_token/constant.dart';
-import 'package:solana/solana/src/instructions/spl_token/utils/utils/spl_token_utils.dart';
-import 'package:solana/solana/src/instructions/system/constant.dart';
-import 'package:solana/solana/src/layout/program_layouts/core/program_layout.dart';
-import 'package:solana/solana/src/models/transaction/instruction.dart';
+import 'package:dart_solana/solana/src/address/sol_address.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/constant.dart';
+import 'package:dart_solana/solana/src/instructions/spl_token/utils/utils/spl_token_utils.dart';
+import 'package:dart_solana/solana/src/instructions/system/constant.dart';
+import 'package:dart_solana/solana/src/layout/program_layouts/core/program_layout.dart';
+import 'package:dart_solana/solana/src/models/transaction/instruction.dart';
 
 import '../../models/account/account_meta.dart';
 import 'layouts/layouts.dart';
